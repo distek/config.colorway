@@ -1,0 +1,46 @@
+set $wallpaper {{.wallpaper.String}}
+
+set $background #{{.background.Hex}}
+set $foreground #{{.foreground.Hex}}
+
+set $color0 #{{.color0.Hex}}
+set $color1 #{{.color1.Hex}}
+set $color2 #{{.color2.Hex}}
+set $color3 #{{.color3.Hex}}
+set $color4 #{{.color4.Hex}}
+set $color5 #{{.color5.Hex}}
+set $color6 #{{.color6.Hex}}
+set $color7 #{{.color7.Hex}}
+set $color8 #{{.color8.Hex}}
+set $color9 #{{.color9.Hex}}
+set $color10 #{{.color10.Hex}}
+set $color11 #{{.color11.Hex}}
+set $color12 #{{.color12.Hex}}
+set $color13 #{{.color13.Hex}}
+set $color14 #{{.color14.Hex}}
+set $color15 #{{.color15.Hex}}
+
+### class               border  backgr.  text    indicator child_border
+client.focused          $color3 #555555 #ffffff #d2d4de   $color3
+client.focused_inactive #8c8c8c #5f676a  #ffffff #d2d4de   $color8
+client.unfocused        #8c8c8c #222222  #888888 #292d2e   $color8
+client.urgent           #2f343a #900000  #ffffff #900000   #900000
+client.placeholder      #222222 #0c0c0c  #ffffff #000000   #222222
+default_floating_border normal
+client.background       #333333
+
+bar {
+    i3bar_command i3bar
+    status_command i3blocks
+    position top
+    tray_output primary
+
+    colors {
+        background $background
+
+        focused_workspace  $background $color7
+        active_workspace   $background $color14
+        inactive_workspace $color6     $color0
+        urgent_workspace   $background $color13
+    }
+}

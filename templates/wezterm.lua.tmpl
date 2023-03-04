@@ -1,0 +1,54 @@
+return {
+	foreground = "#{{.foreground.Hex}}",
+	background = "#{{.background.Hex}}",
+
+	cursor_bg = "#{{.foreground.Hex}}",
+
+	ansi = {
+		"#{{.color0.Hex}}",
+		"#{{.color1.Hex}}",
+		"#{{.color2.Hex}}",
+		"#{{.color3.Hex}}",
+		"#{{.color4.Hex}}",
+		"#{{.color5.Hex}}",
+		"#{{.color6.Hex}}",
+		"#{{.color7.Hex}}",
+	},
+
+	brights = {
+		"#{{.color8.Hex}}",
+		"#{{.color9.Hex}}",
+		"#{{.color10.Hex}}",
+		"#{{.color11.Hex}}",
+		"#{{.color12.Hex}}",
+		"#{{.color13.Hex}}",
+		"#{{.color14.Hex}}",
+		"#{{.color15.Hex}}",
+	},
+
+	tab_bar = {
+		background = "#{{.color8.Hex}}",
+		active_tab = {
+			bg_color = "#{{.color0.Hex}}",
+			fg_color = "#{{.foreground.Hex}}",
+		},
+		inactive_tab = {
+			bg_color = "#{{.background.Hex}}",
+			fg_color = "#{{.foreground.Hex}}",
+		},
+		inactive_tab_hover = {
+			bg_color = "#{{.background.Hex}}",
+			fg_color = "#{{.foreground.Hex}}",
+			intensity = "Bold",
+		},
+		new_tab = {
+			bg_color = "#{{.color0.Hex}}",
+			fg_color = "#{{.foreground.Hex}}",
+		},
+		new_tab_hover = {
+			bg_color = "#{{.color0.Hex}}",
+			fg_color = "#{{.foreground.Hex}}",
+			intensity = "Bold",
+		},
+	},
+}

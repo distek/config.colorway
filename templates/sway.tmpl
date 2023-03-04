@@ -1,0 +1,29 @@
+set $wallpaper {{.wallpaper.String}}
+
+set $background #{{.background.Hex}}
+set $foreground #{{.foreground.Hex}}
+
+set $color0 #{{.color0.Hex}}
+set $color1 #{{.color1.Hex}}
+set $color2 #{{.color2.Hex}}
+set $color3 #{{.color3.Hex}}
+set $color4 #{{.color4.Hex}}
+set $color5 #{{.color5.Hex}}
+set $color6 #{{.color6.Hex}}
+set $color7 #{{.color7.Hex}}
+set $color8 #{{.color8.Hex}}
+set $color9 #{{.color9.Hex}}
+set $color10 #{{.color10.Hex}}
+set $color11 #{{.color11.Hex}}
+set $color12 #{{.color12.Hex}}
+set $color13 #{{.color13.Hex}}
+set $color14 #{{.color14.Hex}}
+set $color15 #{{.color15.Hex}}
+
+exec_always {
+    'pkill swaybg; swaybg -i $wallpaper -m fill'
+    # 'pkill swaybg; swaybg -c "#000000"'
+}
+
+# vi:ft=config
+

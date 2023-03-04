@@ -1,0 +1,87 @@
+# Kanagawa (https://github.com/rebelot/kanagawa.nvim)
+# colorscheme:
+#   wallpaper: "~/Pictures/wallpapers/green-leaves-plants.jpg"
+#   background: "#1f1f28"
+#   foreground: "#dcd7ba"
+#   color0: "#090618"
+#   color1: "#c34043"
+#   color2: "#76946a"
+#   color3: "#c0a36e"
+#   color4: "#7e9cd8"
+#   color5: "#957fb8"
+#   color6: "#6a9589"
+#   color7: "#c8c093"
+#   color8: "#727169"
+#   color9: "#e82424"
+#   color10: "#98bb6c"
+#   color11: "#e6c384"
+#   color12: "#7fb4ca"
+#   color13: "#938aa9"
+#   color14: "#7aa89f"
+#   color15: "#dcd7ba"
+
+# Nord
+# colorscheme:
+#   wallpaper: "~/Pictures/wallpapers/nord-passlolol.jpg"
+#   background: '#2e3440'
+#   foreground: '#d8dee9'
+#   color0:  '#3b4252'
+#   color1:  '#bf616a'
+#   color2:  '#a3be8c'
+#   color3:  '#ebcb8b'
+#   color4:  '#81a1c1'
+#   color5:  '#b48ead'
+#   color6:  '#88c0d0'
+#   color7:  '#e5e9f0'
+#   color8:  '#4c566a'
+#   color9:  '#bf616a'
+#   color10: '#a3be8c'
+#   color11: '#ebcb8b'
+#   color12: '#81a1c1'
+#   color13: '#b48ead'
+#   color14: '#8fbcbb'
+#   color15: '#eceff4'
+
+# Monokai
+# colorscheme:
+#   wallpaper: "~/Pictures/wallpapers/monokai.png"
+#   background: '#2D2A2E'
+#   foreground: '#FCFCFA'
+#   color0:  '#403E41'
+#   color1:  '#FF6188'
+#   color2:  '#A9DC76'
+#   color3:  '#FFD866'
+#   color4:  '#FC9867'
+#   color5:  '#AB9DF2'
+#   color6:  '#78DCE8'
+#   color7:  '#FCFCFA'
+#   color8:  '#727072'
+#   color9:  '#FF6188'
+#   color10: '#A9DC76'
+#   color11: '#FFD866'
+#   color12: '#FC9867'
+#   color13: '#AB9DF2'
+#   color14: '#78DCE8'
+#   color15: '#FCFCFA'
+
+# Tokyodark
+colorscheme:
+  wallpaper: "~/Pictures/wallpapers/purple-black-blue.png"
+  background: "#11121d"
+  foreground: "#a0a8cd"
+  color0: "#212234"
+  color1: "#7199ee"
+  color2: "#38a89d"
+  color3: "#95c561"
+  color4: "#a485dd"
+  color5: "#ee6d85"
+  color6: "#a0a8cd"
+  color7: "#d7a65f"
+  color8: "#06080a"
+  color9: "#7199ee"
+  color10: "#38a89d"
+  color11: "#95c561"
+  color12: "#a485dd"
+  color13: "#ee6d85"
+  color14: "#a0a8cd"
+  color15: "#d7a65f"
