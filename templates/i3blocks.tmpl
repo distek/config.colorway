@@ -7,7 +7,7 @@ color=#{{.foreground.Hex}}
 [separator]
 
 [vol-out]
-command=/home/{{.user.String}}/.config/i3blocks/volume-pulseaudio-new
+command=/home/{{.user.String}}/.config/i3blocks/volume
 signal=1
 interval=once
 COLOR=#{{.color3.Hex}}
@@ -15,7 +15,7 @@ TYPE=output
 MUTEDCOLOR=#{{.color6.Hex}}
 
 [vol-in]
-command=/home/{{.user.String}}/.config/i3blocks/volume-pulseaudio-new
+command=/home/{{.user.String}}/.config/i3blocks/volume
 signal=1
 interval=once
 COLOR=#{{.color3.Hex}}
@@ -64,7 +64,7 @@ color=#{{.color1.Hex}}
 [separator]
 
 [ip]
-command=printf "%s | %s\n" "$(iwctl station wlan0 show | grep "Connected network" | awk '{print $3}')" "$(ip a | grep wlan0 | grep inet | awk -F' ' '{print $2}')"
+command=printf "%s\n" "$(ip a | grep wlan0 | grep inet | awk -F' ' '{print $2}')"
 interval=once
 color=#{{.color6.Hex}}
 
