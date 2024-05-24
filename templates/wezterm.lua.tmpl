@@ -29,25 +29,25 @@ return {
 	tab_bar = {
 		background = "#{{.color8.Hex}}",
 		active_tab = {
+			bg_color = "#{{.color3.Hex}}",
+			fg_color = "#{{.background.Hex}}",
+		},
+		inactive_tab = {
 			bg_color = "#{{.color0.Hex}}",
 			fg_color = "#{{.foreground.Hex}}",
 		},
-		inactive_tab = {
-			bg_color = "#{{.background.Hex}}",
-			fg_color = "#{{.foreground.Hex}}",
-		},
 		inactive_tab_hover = {
-			bg_color = "#{{.background.Hex}}",
+			bg_color = "#{{.color0.Hex}}",
 			fg_color = "#{{.foreground.Hex}}",
 			intensity = "Bold",
 		},
 		new_tab = {
-			bg_color = "#{{.color0.Hex}}",
-			fg_color = "#{{.foreground.Hex}}",
+			bg_color = "#{{.color6.Hex}}",
+			fg_color = "#{{.background.Hex}}",
 		},
 		new_tab_hover = {
-			bg_color = "#{{.color0.Hex}}",
-			fg_color = "#{{.foreground.Hex}}",
+			bg_color = "#{{.color6.Hex}}",
+			fg_color = "#{{.background.Hex}}",
 			intensity = "Bold",
 		},
 	},
