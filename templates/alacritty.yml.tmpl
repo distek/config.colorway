@@ -1,7 +1,10 @@
 colors:
+  transparent_background_colors: true
   primary:
     background: '0x{{.background.Hex}}'
     foreground: '0x{{.foreground.Hex}}'
+    dim_foreground: '0x{{.foreground.DarkenHex 0.2}}'
+    dim_background: '0x{{.background.LightenHex 0.4}}'
 
   normal:
     black:   '0x{{.color0.Hex}}'
@@ -22,3 +25,17 @@ colors:
     magenta: '0x{{.color13.Hex}}'
     cyan:    '0x{{.color14.Hex}}'
     white:   '0x{{.color15.Hex}}'
+
+  dim:
+    black:   '0x{{.color0.DarkenHex 0.4}}'
+    red:     '0x{{.color1.DarkenHex 0.4}}'
+    green:   '0x{{.color2.DarkenHex 0.4}}'
+    yellow:  '0x{{.color3.DarkenHex 0.4}}'
+    blue:    '0x{{.color4.DarkenHex 0.4}}'
+    magenta: '0x{{.color5.DarkenHex 0.4}}'
+    cyan:    '0x{{.color6.DarkenHex 0.4}}'
+    white:   '0x{{.color7.DarkenHex 0.4}}'
+
+  indexed_colors:
+    - { index: 16, color: '0x{{.background.Hex}}'}
+    - { index: 17, color: '0x{{.background.LightenHex 0.9}}'}
